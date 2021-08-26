@@ -1,4 +1,8 @@
-# Escribe aquí tus funciones...
+def rect (a,b):
+    return a*b
+
+def volumen_prisma (x,y,z):
+    return rect (x,y)*z
 
 def main():
     #escribe tu código abajo de esta línea
@@ -12,3 +16,4 @@ def main():
 
 if __name__=='__main__':
     main()
+
